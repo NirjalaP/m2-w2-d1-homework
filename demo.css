@@ -49,3 +49,23 @@ header {
     padding-top: 20px;
     color:rgb(211, 218, 240);
   }
+
+/* Main area */
+.cards {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr; /* Default to single column */
+}
+
+/* Two-column layout for wider screens */
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+  }
+}
+
+/* Responsive image */
+.card img {
+  width: 100%; /* Image scales to fit its container */
+  height: auto; /* Maintain aspect ratio */
+}
