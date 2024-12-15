@@ -1,11 +1,11 @@
 header {
     background: url(images/central_park.jpg) 0 -200px no-repeat;  /* place image as background */
-    background-size: 1500px;
+    background-size: cover; /*Make the background image responsive*/
     /*background-position: 0 -200px;*/
     /*background-repeat: no-repeat;*/
-    height: 400px; /* give header some height to display the background image */
+    height: 300px; /* give header some height to display the background image */
     padding-top: 100px;
-    padding-left: 100px;
+    padding-left: 20px; /*Adjust padding for smaller size*/
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
   }
